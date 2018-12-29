@@ -1,0 +1,8 @@
+{
+  "name": "spectacular-phoenix",
+  "version": "1.0.0",
+  "description": "Spectacle's emulation in phoenix",
+  "main": "index.js",
+  "author": "Eduardo Vazquez",
+  "license": "WTFPL"
+}
