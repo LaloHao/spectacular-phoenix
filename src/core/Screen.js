@@ -15,13 +15,14 @@ Screen.setSpace = (rows, columns) => {
             }
         }
 
-        const order = rows * columns - 1;
+        const order = rows * columns;
 
         Screen.space = {
             subspace,
             order,
         };
 
-        Screen.subspace = [].concat(...subspace);
+        Screen._subspace = [].concat(...subspace);
+        Screen.subspace = (space) => Screen._subspace[space % order];
     }
 };

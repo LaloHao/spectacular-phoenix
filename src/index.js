@@ -1,39 +1,39 @@
 Screen.setSpace(3, 2);
 
 Key.bind('keypad1', ['cmd', 'alt'], (screen, window) => {
-    window.setFrame(Screen.subspace[0]);
+    window.setFrame(Screen.subspace(0));
 });
 
 Key.bind('keypad2', ['cmd', 'alt'], (screen, window) => {
-    window.setFrame(Screen.subspace[1]);
+    window.setFrame(Screen.subspace(1));
 });
 
 Key.bind('keypad3', ['cmd', 'alt'], (screen, window) => {
-    window.setFrame(Screen.subspace[2]);
+    window.setFrame(Screen.subspace(2));
 });
 
 Key.bind('keypad4', ['cmd', 'alt'], (screen, window) => {
-    window.setFrame(Screen.subspace[3]);
+    window.setFrame(Screen.subspace(3));
 });
 
 Key.bind('keypad5', ['cmd', 'alt'], (screen, window) => {
-    window.setFrame(Screen.subspace[4]);
+    window.setFrame(Screen.subspace(4));
 });
 
 Key.bind('keypad6', ['cmd', 'alt'], (screen, window) => {
-    window.setFrame(Screen.subspace[5]);
+    window.setFrame(Screen.subspace(5));
 });
 
 Key.bind('keypad7', ['cmd', 'alt'], (screen, window) => {
-    window.setFrame(Screen.subspace[6]);
+    window.setFrame(Screen.subspace(6));
 });
 
 Key.bind('keypad8', ['cmd', 'alt'], (screen, window) => {
-    window.setFrame(Screen.subspace[7]);
+    window.setFrame(Screen.subspace(7));
 });
 
 Key.bind('keypad9', ['cmd', 'alt'], (screen, window) => {
-    window.setFrame(Screen.subspace[8]);
+    window.setFrame(Screen.subspace(8));
 });
 
 Key.bind('left', ['cmd', 'alt'], (screen, window) => {
