@@ -72,3 +72,13 @@ Key.bind('c', ['cmd', 'alt'], (screen, window) => {
         y: screen.y + (screen.height / 2) - (window.frame().height / 2)
     });
 });
+
+Key.bind('f', ['cmd', 'alt'], (screen, window) => {
+    window.setFrame({
+        x: screen.x,
+        y: screen.y,
+        width: screen.width,
+        height: screen.height,
+    });
+});
+
